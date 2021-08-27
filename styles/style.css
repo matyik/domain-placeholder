@@ -1,0 +1,22 @@
+body {
+  background: #ddd;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.watermark-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5;
+}
+
+.watermark-container:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
